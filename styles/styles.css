@@ -1,0 +1,57 @@
+.text {
+  text-align: left;
+  color: white;
+  display: inline;
+}
+
+.text1 {
+  color: white;
+  display: inline;
+  text-align: right;
+  position: relative;
+  left: 1530px;
+  top: -3px;
+}
+
+.text2 {
+  font-size: 200%;
+  color: white;
+  display: inline;
+  text-align: center;
+  position: relative;
+  left: 800px;
+  top: -3px;
+}
+
+.button {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  left: 1525px;
+  background-color: gray;
+  height: 30px;
+  width: 90px;
+  text-shadow: 2px 2px 4px black;
+  display: inline;
+}
+
+.button .button1 {
+  left: 1900px;
+  top: -6px;
+  display: inline;
+}
+
+.bgcol {
+  background-color: black;
+}
+
+.img {
+  height: 80px;
+  width: 90px;
+  display: inline;
+}
+
+.img2 {
+  text-align: center;
+}
