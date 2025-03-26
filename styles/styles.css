@@ -1,3 +1,143 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header.bg-dark {
+  background-color: #343a40;
+  padding: 20px;
+}
+
+header .text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  border-radius: 10px;
+}
+
+/* Section and container styles */
+section.container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
+  font-size: 2.5em;
   text-align: center;
+  margin-bottom: 20px;
+  color: #17a2b8;
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-img-top {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.card-body {
+  text-align: center; 
+}
+
+.card-title {
+  color: #007bff;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin: 10px auto;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+footer.bg-dark {
+  background-color: #343a40;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+footer a.text-white {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a.text-white:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .card-body {
+    flex-direction: column;
+  }
+
+  p,
+  .list-group-item {
+    font-size: 0.85rem; 
+  }
+
+  .card-text,
+  .recipe-detail {
+    font-size: 0.85rem;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  h5.card-title {
+    font-size: 1.1em;
+  }
+
+  .btn-primary {
+    font-size: 0.8em;
+    padding: 6px 10px; 
+
+  }
 }
